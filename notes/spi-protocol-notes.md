@@ -14,6 +14,6 @@ In this project, the Arduino Uno is used to control the SPI bus, and the TMP121 
 The TMP121 is a **read-only** temperature sensor and does not include a Serial Input (SI) pin. 
 Therefore:
 
-- The **MOSI line isn't needed so it's disconnected
+- The **MOSI line isn't needed** so it's disconnected
 - Only **MISO, SCK, and CS** are used in communication
 - Temperature data is clocked out of it while CS is low. 
