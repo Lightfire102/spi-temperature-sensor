@@ -1,5 +1,7 @@
 # SPI Temperature Sensor (TMP121)
 
+https://github.com/user-attachments/assets/f0435301-d394-4a22-a00f-f51dd5ddddff
+
 ## Overview
 In this project I used a digital temperature sensor using the SPI-based TMP121, focusing on low-level protocol understanding, firmware, and hardware debugging using common industry tools such as the Sigilent oscilloscope and Salae logic analyzer.
 
@@ -32,3 +34,4 @@ spi-temperature-sensor/
 ├── oscilloscope/         # Scope captures and timing analysis
 ├── logic-analyzer/       # SPI decode captures
 └── notes/                # Datasheet notes and debugging insights
+
